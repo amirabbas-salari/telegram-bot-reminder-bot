@@ -1,0 +1,13 @@
+name = "telegram-bot-reminder-bot"
+main = "worker.js"
+compatibility_date = "2024-09-23"
+
+# KV namespace for storage. Create one with:
+#   wrangler kv namespace create BOT_KV
+kv_namespaces = [{ binding = "BOT_KV", id = "REPLACE_WITH_KV_ID" }]
+
+[triggers]
+crons = ["*/15 * * * *"]
+
+# Telegram bot token (encrypted secret, never commit):
+#   wrangler secret put BOT_TOKEN
