@@ -188,7 +188,3 @@ Part of a free, open-source Telegram bot collection by [botlabz](https://github.
 Browse all bots in the [tele-bot](https://github.com/botlabz/tele-bot) org.
 
 ---
-
-Let's Build Something Together 🚀
-
-https://tally.so/r/q4q1L9
